@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="GitHub release" src="https://github.com/LaxmanSinghTomar/nsfw-classifier/blob/529e0e41c43b4077d2e9e30a48537ffacb64bd2e/NSFW%20Classifier.png">
+  <img alt="GitHub release" src="https://github.com/LaxmanSinghTomar/nsfw-classifier/blob/d0ff19d343f97bd747c8500aafb3220eb314e1ce/NSFW%20Classifier.png">
 </p>
 
 <p align = "center">
