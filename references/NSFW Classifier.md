@@ -85,8 +85,72 @@ rescale=1./255
 
 ## Results
 - **Confusion Matrix**
+   - **MobileNetV2**
+   <img src="https://github.com/LaxmanSinghTomar/nsfw-classifier/blob/master/reports/figures/mobilenet_confusion_matrix.png" width="600" height="400"/>
+   
+   - **NASMobileNet**
+   <img src="https://github.com/LaxmanSinghTomar/nsfw-classifier/blob/master/reports/figures/nasmobilenet_confusion_matrix.png" width="600" height="400"/>
+   
+   - **EfficientNet**
+  <img src="https://github.com/LaxmanSinghTomar/nsfw-classifier/blob/master/reports/figures/efficientnet_confusion_matrix.png" width="600" height="400"/>
+  
 - **Classification Report**
+   - **MobileNetV2**
+
+
+   |              |  **precision**           |  **recall**              |  **f1-score**            |  **support** |
+   |--------------|----------------------|----------------------|----------------------|---------|
+   |**drawings**      |  0.8115091015854374  |  0.691               |  0.7464218201458277  |  2000.0 |
+   |**hentai**        |  0.800880626223092   |  0.8185              |  0.8095944609297724  |  2000.0 |
+   |**neutral**       |  0.803352967829633   |  0.8865              |  0.8428809127644401  |  2000.0 |
+   |**porn**          |  0.9222520107238605  |  0.688               |  0.7880870561282932  |  2000.0 |
+   |**sexy**          |  0.7227877838684417  |  0.923               |  0.8107158541941152  |  2000.0 |
+   |**accuracy**      |                |                |                |  0.8014 |
+   |**macro avg**     |  0.8121564980460928  |  0.8013999999999999  |  0.7995400208324897  |  10000.0 |
+   |**weighted avg**  |  0.8121564980460929  |  0.8014              |  0.7995400208324897  |  10000.0 |
+  
+  
+  
+   - **NASMobileNet**
+
+
+   |                 |  **precision**           |  **recall**              |  **f1-score**            |  **support** |
+   |--------------|----------------------|----------------------|----------------------|--------- |
+   |**drawings**      |  0.7647058823529411  |  0.6305              |  0.6911482597972046  |  2000.0 |
+   |**hentai**        |  0.7942794279427943  |  0.722               |  0.7564169722367732  |  2000.0 |
+   |**neutral**       |  0.7376362112321878  |  0.88                |  0.8025535795713634  |  2000.0 |
+   |**porn**          |  0.9076607387140903  |  0.6635              |  0.7666088965915655  |  2000.0 |
+   |**sexy**          |  0.6722532588454376  |  0.9025              |  0.7705442902881536  |  2000.0 |
+   |**accuracy**      |                |                |                |  0.7597 |
+   |**macro avg**     |  0.7753071038174901  |  0.7596999999999999  |  0.7574543996970121  |  10000.0 |
+   |**weighted avg**  |  0.7753071038174904  |  0.7597              |  0.7574543996970121  |  10000.0 |
+
+
+
+   - **EfficientNet**
+
+
+   |                 |  **precision**           |  **recall**  |  **f1-score**            |  **support** |
+   |--------------|----------------------|----------|----------------------|--------- |
+   |**drawings**      |  0.8395285584768812  |  0.463   |  0.5968417660328714  |  2000.0 |
+   |**hentai**        |  0.6955645161290323  |  0.8625  |  0.7700892857142858  |  2000.0 |
+   |**neutral**       |  0.7825890843482183  |  0.8675  |  0.8228598529760494  |  2000.0 |
+   |**porn**          |  0.8741681790683605  |  0.7225  |  0.791130577607446   |  2000.0 |
+   |**sexy**          |  0.7141735374950923  |  0.9095  |  0.8000879700901694  |  2000.0 |
+   |**accuracy**      |                 |     |                 |   |
+   |**macro avg**     |  0.7812047751035169  |  0.765   |  0.7562018904841645  |  10000.0 |
+   |**weighted avg**  |  0.7812047751035169  |  0.765   |  0.7562018904841643  |  10000.0 |
+
 - **ROC-AUC Curve**
+   - **MobileNetV2**
+   <img src="https://github.com/LaxmanSinghTomar/nsfw-classifier/blob/master/reports/figures/mobilenet_roc_auc_curve.png" width="600" height="400"/>
+   
+   - **NASMobileNet**
+   <img src="https://github.com/LaxmanSinghTomar/nsfw-classifier/blob/master/reports/figures/nasmobilenet_roc_auc_curve.png" width="600" height="400"/>
+   
+   - **EfficientNet**
+   <img src="https://github.com/LaxmanSinghTomar/nsfw-classifier/blob/master/reports/figures/efficientnet_roc_auc_curve.png" width="600" height="400"/>
+
 
 ## Pitfalls
 
