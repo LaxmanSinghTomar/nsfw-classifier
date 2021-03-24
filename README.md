@@ -4,7 +4,7 @@
 
 <p align = "center">
   <a href="https://github.com/LaxmanSinghTomar/nsfw-classifier/commits/master" target="_blank">
-    <img src="https://img.shields.io/github/last-commit/LaxmanSinghTomar/homoglyph-detector?style=flat-square" alt="GitHub last commit">
+    <img src="https://img.shields.io/github/last-commit/LaxmanSinghTomar/nsfw-classifier?style=flat-square" alt="GitHub last commit">
   </a>
 
 <a href="https://github.com/LaxmanSinghTomar/nsfw-classifier/issues" target="_blank">
@@ -26,7 +26,7 @@
 </br>
 
 <a href="https://github.com/LaxmanSinghTomar/nsfw-classifierr#contribute" target="_blank">
-  <img alt="Contributors" src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square">
+  <img alt="Contributors" src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
 </a>
 
 <a href="https://standardjs.com" target="_blank">
