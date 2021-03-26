@@ -1,4 +1,4 @@
-TRAIN_PATH = "data/train" 
+TRAIN_PATH = "data/train"
 TEST_PATH = "data/test"
 
 MODEL_PATH = "models/mobilenet.h5"
