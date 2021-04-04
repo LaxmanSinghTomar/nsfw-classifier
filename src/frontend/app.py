@@ -14,6 +14,6 @@ if file is not None:
     st.image(file, use_column_width = 'always', output_format = 'PNG')
     files = {"file": file.getvalue()}
     with st.spinner("Prediction in Progress"):
-        res = requests.post(f"http://0.0.0.0:8000/predict/image", files = files)
+        res = requests.post(f"http://backend:8000/predict/image", files = files)
         resp = res.text
         st.success(resp)
